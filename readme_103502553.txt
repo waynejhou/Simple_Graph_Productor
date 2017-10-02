@@ -1,0 +1,65 @@
+計算機實習 期末Project
+
+學號：103502553
+
+姓名：周恒瑋
+
+作品名：Simple_Graph_Productor
+
+使用語言：java
+
+使用元件：javax.swing, java.awt, java.io, java.imageio, java.util, threads
+
+如何使用：
+
+	1. 點擊 Simple_Graph_Productor.jar 開啟正常模式
+	   或點擊 Start_Jar Simple_Graph_Productor.bat 開啟主控台模式
+	   pancle_cursor.png , Simple_Graph_Productor.jar , Start_Jar Simple_Graph_Productor.bat 務必放在同一資料夾
+
+	2. 點擊左方 "筆刷" 拖曳左鍵任意畫圖
+
+	3. 點擊左方 "直線" 拖曳左鍵畫直線
+
+	4. 點擊左方 "圓形" 拖曳左鍵畫圓形
+
+	5. 點擊左方 "矩形" 拖曳左鍵畫矩形
+
+	6. 點擊左方 "三角形" 拖曳左鍵畫三角形
+
+	7. 點擊左方 "愛心" 拖曳左鍵畫愛心
+
+	8. 點擊右方 "顏色" 更改畫圖顏色
+	   點擊右方 "背景" 更改背景顏色
+	   "好手氣" 為隨機顏色
+	   背景顏色不會是透明的
+
+	9. 拖曳上方左邊橫槓調整線調粗細
+	   最小為1 最大為50
+
+	10. 點擊下方 "調整大小" 調整畫布大小
+	    調整大小時視同開新檔案，不會提示要求儲存
+
+	11. 點擊下方 "儲存圖片" 即可儲存圖片
+	    存檔類型只有.png
+
+	12. 點擊下方 "清除" 清除畫布上的一切，只留背景顏色
+
+	13. 點擊下方 "填滿" 切換"填滿","無填滿"模式
+
+	14. 點擊下方 "開啟圖片" 讀取圖片
+	注意：讀取圖片時圖片太大會有部分看不到，除非電腦銀幕解析度夠高
+
+	15. 主控台模式可以調整部分受限制的參數
+	    輸入 help 可取得指令清單
+
+Java Project：
+	放在 Simple_Graph_Productor 資料夾裡
+	在 Simple_Graph_Productor/bin 裡 點擊 Make_JAR Simple_Graph_Productor.bat 可以打包 SGProduct中的.class檔 並測試程式
+
+本來要新增的功能：
+
+	復原功能：BufferImage 搞不定
+
+	FB圖片分享功能：java瀏覽器搞不定
+
+	選取複製貼上：沒有頭緒
